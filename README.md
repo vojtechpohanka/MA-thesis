@@ -18,7 +18,7 @@ In addition to the Manifesto Project (MARPOR) dataset, which is loaded from the 
 * **PARLGOV data**:  Döring, Holger, and Philip Manow. 2024. **“ParlGov 2024 Release.”** Version 1.0. With Holger Döring. Harvard Dataverse. Application/octet-stream,text/markdown,application/octet-stream,text/tab-separated-values,text/tab-separated-values,text/tab-separated-values,text/plain,application/pdf,text/tab-separated-values,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 7307264, 106797, 5308416, 7829, 1925238, 283337, 7171, 248194, 1243395, 1567278. https://doi.org/10.7910/DVN/2VZ5ZC.
     * From https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2VZ5ZC download:
         * **"view_cabinet.csv" into your "data/directory"** and
-        * **"view_party.csv" into your "data/directory" **
+        * **"view_party.csv" into your "data/directory"**
 
  
   
