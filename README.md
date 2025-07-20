@@ -1,6 +1,14 @@
 This repository includes replication script for my master's thesis *Party Competition on Cultural Issues in Central and Eastern Europe: Examining Patterns in Issue Salience and Content*.
 
-The scripts included in this repository were ran using R version 4.4.2 
+The scripts included in this repository were ran using R version 4.4.2. 
+# Overview of scripts 
+This repository includes the following scripts to be loaded from "scripts/" in your working directory: 
+   * "data_prep.R"
+   * "countrylevel_analysis.R" - analysis for Chapter 3
+   * "partylevel_analysis.R" - analysis for Chapter 4
+   * 
+
+
 
 # Instructions for downloading datasets used in the analysis
 
