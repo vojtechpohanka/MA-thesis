@@ -3,7 +3,7 @@ This repository includes replication script for my master's thesis *Party Compet
 The scripts included in this repository were ran using R version 4.4.2. 
 # Overview of scripts 
 This repository includes the following scripts to be loaded from "scripts/" in your working directory: 
-   * "data_prep.R" - script for preparing the datasets used in "countrylevel_analysis.R" (chapter 3) and "partylevel_analysis.R" (chapter 4). Run this script first.
+   * "data_prep.R" - script for preparing and exporting the datasets used in "countrylevel_analysis.R" (chapter 3) and "partylevel_analysis.R" (chapter 4).
    * "pattern_extraction.R" - script for preparing the dataset used in "debate_analysis.R" (chapter 5). Run this script before running "debate_analysis.R".
    * "countrylevel_analysis.R" - replication file for analysis in Chapter 3
    * "partylevel_analysis.R" - replication file for analysis in Chapter 4
