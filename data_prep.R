@@ -40,7 +40,6 @@ CEE <- aggregate_pers(CEE, groups = cee_aggregation_relations(),
 
 
 
-
 ##################### Scale party-left right positions
 # using logit_rile according to Lowe et al. (2011)
 
@@ -159,8 +158,8 @@ df_elect <- df_elect %>%
 
 ############################  
 ## save datasets to file
-# write.csv(df_elect, "data/df_elect_raw.csv")
-# write.csv(CEE, "data/df_party_raw.csv")
+write.csv(df_elect, "data/df_elect_raw.csv")
+write.csv(CEE, "data/df_party_raw.csv")
 ##########################################
 
 # Adding country-level variables to the election and party data -----------
@@ -172,17 +171,14 @@ library(fuzzyjoin)
 
 ###############################
 ## load datasets from above
-#df_party <- read.csv("data/df_party_raw.csv")
-#df_elect <- read.csv("data/df_elect_raw.csv")
+df_party <- read.csv("data/df_party_raw.csv")
+df_elect <- read.csv("data/df_elect_raw.csv")
 ########################################
 
 
 # ESS data
 
-unzip("data/ESS11.zip",
-      exdir = "data/ESS")
-
-ess <- read_csv("data/ESS/ESS11.csv")
+ess <- read_csv("data/ESS_subset.csv")
 
 
 # WB data 

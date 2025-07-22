@@ -21,7 +21,8 @@ ches_elect <- read.csv("data/ches_elections.csv")
 theme_set(theme_pubclean(base_size = 22))
 
 
-## sumary tables with elections 
+
+## summary tables with elections, number of programs 
 
 election_table <- df_elect %>% 
   group_by(countryname) %>%
@@ -31,7 +32,18 @@ election_table <- df_elect %>%
           n_elections = n()) %>%
   distinct(countryname, .keep_all = TRUE) 
 
-write_csv(election_table, file = "output_final/election_table.txt")
+party_table <- df_party %>% 
+  group_by(countryname) %>%
+  reframe(countryname, 
+          n_manifestos = n()) %>%
+  distinct(countryname, .keep_all = TRUE) 
+
+
+manifesto_table <- election_table %>%
+  left_join(party_table, 
+            by = "countryname")
+
+write_csv(manifesto_table, file = "output_final/manifesto_table.txt")
 
 
 
