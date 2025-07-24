@@ -36,7 +36,8 @@ In addition to the Manifesto Project (MARPOR) dataset, which is loaded from the 
         * **"view_party.csv" into your "data/directory"**
         
 * **Czech parliamentary speeches**: Jabůrek, Štěpán, 2024, "Czech Parliamentary Speeches Dataset 1993-2023; full transcripts of plenary speeches from the Chamber of Deputies", https://doi.org/10.7910/DVN/FOQUZF, Harvard Dataverse, V3 and Rauh, Christian; Schwalbach, Jan, 2020, "The ParlSpeech V2 data set: Full-text corpora of 6.3 million parliamentary speeches in the key legislative chambers of nine representative democracies", https://doi.org/10.7910/DVN/L4OAKN, Harvard Dataverse, V1
-    * download CSV file from https://dataverse.harvard.edu/file.xhtml?fileId=11810282&version=3.1 and save as "Czech_Parliamentary_Speeches_24.07.2025" in your "data/" directory
+    * The analysis uses a cleaned version of the dataset provided personally by Štěpán Jabůrek, which slightly differs from the version available online. I thus share this dataset directly in this GitHub repository:
+        * download the **debate_data.csv** file from **this repository** and store in your "data/" directory
     
 
  
