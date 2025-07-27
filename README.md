@@ -15,7 +15,7 @@ This repository includes the following scripts to be loaded from "scripts/" in y
 In addition to the Manifesto Project (MARPOR) dataset, which is loaded from the manifestoR package, the scripts **data_prep.R** and **pattern_extraction.R** include several datasets to be loaded from the "data/" directory. To fully reproduce the analysis, download the following datasets and store each in your "data/" directory.
 * pooled dataset from 11 waves of the **European Social Survey (ESS)**:
     * Download the file from the ESS data builder: https://ess.sikt.no/en/data-builder/?rounds=0.6_13_26_32+1.6_8_13_26_31_32+2.3_8_13_26_31_32+3.3_4_6_8_13_19_26_28_31_32+4.3_4_6_8_13_20_26_31_32+5.3_6_8_13_20_26_31_32+6.6_8_13_20_26_32+7.6_8_13_20_26_32+8.3_4_6_8_13_19_20_26_31_32+9.3-8_13_20_31_32+10.19_26+11.3_4_13_19_20_26_31_32&seriesVersion=905&tab=download&variables=2.0.61
-    * Download as CSV and save the zip file as "ESS.zip" in your "data/" directory.
+    * Download as CSV and save the zip file as "ESS_subset.zip" in your "data/" directory.
     * Citations for the survey waves:
         *  **European Social Survey European Research Infrastructure (ESS ERIC) (2025) ESS11 - integrated file, edition 3.0 [Data set]**. Sikt - Norwegian Agency for Shared Services in Education and Research. https://doi.org/10.21338/ess11e03_0.
   
