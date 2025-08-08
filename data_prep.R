@@ -34,7 +34,7 @@ countries <- c(
   "Slovakia",
   "Slovenia"
 )
-countries_2 <- c(11:14, 21:23, 31, 41, 42, 43, 51, 53)
+
 
 CEE <- mpds %>%
   filter(countryname %in% countries)
@@ -1961,3 +1961,4 @@ survey_means <- trend_24 %>%
 
 write_csv(survey_means, "data/ches_elections.csv")
 fwrite(trend_24_cee, "data/ches_party.csv")
+
