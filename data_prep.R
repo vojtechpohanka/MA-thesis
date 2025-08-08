@@ -197,7 +197,7 @@ df_elect <- df_elect %>%
 ############################
 ## save datasets to file
 write.csv(df_elect, "data/df_elect_raw.csv")
-write.csv(CEE, "data/df_party_raw.csv")
+write.csv(df_party, "data/df_party_raw.csv")
 ##########################################
 
 # Adding country-level variables to the election and party data -----------
@@ -1961,4 +1961,5 @@ survey_means <- trend_24 %>%
 
 write_csv(survey_means, "data/ches_elections.csv")
 fwrite(trend_24_cee, "data/ches_party.csv")
+
 
